@@ -20,7 +20,7 @@ public class KadaiFirstController {
     	int d = Integer.parseInt(dd);
 
     	Calendar cal = Calendar.getInstance();
-    	cal.set(y, m, d);
+    	cal.set(y, m - 1, d);
 
     	switch( cal.get(Calendar.DAY_OF_WEEK)) {
     	case Calendar.SUNDAY:
